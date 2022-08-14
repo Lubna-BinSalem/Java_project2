@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 
 @RestController
+@RequestMapping("pi/v1/amazon")
 public class MerchantController {
     MerchantService merchantService ;
 
