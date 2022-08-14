@@ -12,6 +12,7 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 
 @RestController
+@RequestMapping("pi/v1/amazon")
 public class UserController {
 
 private final UserService userService;
